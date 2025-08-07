@@ -32,10 +32,10 @@
 	--prim-gray-0-alpha-010: hsla(var(--prim-gray-h), 50%, 100%, 0.1);
 	--prim-gray-0: hsl(var(--prim-gray-h), 50%, 100%);
 
-	// Color Primary
-	--prim-color-primary-h: 7;
-	--prim-color-primary-s: 100%;
-	--prim-color-primary-l: 68%;
+	// Color Primary - 科技感紫色
+	--prim-color-primary-h: 263;
+	--prim-color-primary-s: 70%;
+	--prim-color-primary-l: 56%;
 
 	--prim-color-primary-shade-300: hsl(
 		var(--prim-color-primary-h),
@@ -96,10 +96,10 @@
 		calc(var(--prim-color-primary-l) + 30%)
 	);
 
-	// Color Secondary
-	--prim-color-secondary-h: 247;
-	--prim-color-secondary-s: 49%;
-	--prim-color-secondary-l: 53%;
+	// Color Secondary - 深紫蓝色，与主紫色协调
+	--prim-color-secondary-h: 240;
+	--prim-color-secondary-s: 60%;
+	--prim-color-secondary-l: 50%;
 
 	--prim-color-secondary-shade-250: hsl(
 		var(--prim-color-secondary-h),
